@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gull Cafe</title>
+    <link rel="stylesheet" type="text/css" href="./cafawebsite/css/style.css" >
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="./cafawebsite/images/logo.png" alt="logo" class="logo" >
+                <ul class="main-nav " id="check-class" >
+                    <li><a href="#">CAKE DELIVERY</a></li> 
+                    <li><a href="#">HOW TO ORDER</a></li>     
+                    <li><a href="#">CHECK MORE</a></li> 
+                    <li><a href="#">SIGN UP</a></li> 
+                </ul>
+                <a href="#" class= "mobile-icons"  onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            </div>
+           
+        </nav>
+
+        <div class="main-content-header">
+        <h1>WELCOME TO <span class="colorchange">GULL CAFE</span>.<br>
+            HOUSE OF CAKE LOVERS</h1>
+
+            <a href="#" class="btn btn-full"> Click to order</a>
+            <a href="#" class="btn btn-nav"> Show me more</a>
+        </div>
+    </header>
+    <script type="text/javascript">
+        function toggleMenu() {
+    var nav = document.getElementById('check-class');
+    nav.style.display = nav.style.display === 'none' ? 'block' : 'none';
+}
+
+    </script>
+</body>
+</html>
